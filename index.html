@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <script src="script.js" defer></script>
+  <title>Sign Up Form</title>
+</head>
+<body>
+  <div class="main-panel">
+      <div class="language-toggle">
+        <div class="language"><span class="lang-selected">Español</span></div>
+        <input type="checkbox" class="toggle">
+      </div>
+      <div class="container">
+        <img class="container-bg" src="images/bg-intro-mobile.png" alt="">
+        <div class="container-1">
+          <div class="header">
+            <span class="header-1">Únete a nuestro equipo hoy.</span>
+          </div>
+          <div class="description">
+            Experimenta una 
+            formación de primera categoría y una compensación competitiva que 
+            refleja tu dedicación para mantener un entorno limpio y 
+            saludable.
+          </div>
+        </div>
+        <div class="container-2">
+          <!-- <div class="promo">
+            <p class="promo-copy"><span class="bolded">¡Regístrate ahora!</span></p>
+          </div> -->
+          <form class="inputs">
+            <input class="input-item input-1" type="text" name="fname" id="fname"
+            placeholder="Nombre" required>
+            <input class="input-item input-2" type="text" name="lname" id="lname"
+            placeholder="Apellido" required>
+            <input class="input-item input-3" type="email" name="email" id="email"
+            placeholder="tu-correo@example.com" required>
+            <input class="input-item input-4" type="password" name="pword" id="pword"
+            placeholder="Contraseña" required>
+            <input class="input-item claim-button" type="submit" id="sub-btn"
+            value="Enviar">
+            <div class="fine-print">
+              By clicking the button, you are agreeing to our <span class="red-bold">
+                Terms and Services</span>
+            </div>
+          </form>
+        </div>
+  </div>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
